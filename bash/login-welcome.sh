@@ -37,7 +37,7 @@ day=$(date +%A)
 [ $day == "Saturday" ] && title="Batman"
 [ $day == "Sunday" ] && title="Nobody"
 
-#Assigned a title to each day of the week
+#First tested what day it is and then assigned a title to each day of the week
 
 
 ###############
@@ -46,5 +46,8 @@ day=$(date +%A)
 
 newMessage="Welcome to planet $hostname, $title $myname!
   It is $day at $hours:$min $meridian."
+  
+ #Assigned the output to a newly created variable 'newMessage' instead of displaying it directly.
 
 cowsay $newMessage
+#Used the command cowsay to display the text inside newMessage. This makes the text display as if a cow is saying it.

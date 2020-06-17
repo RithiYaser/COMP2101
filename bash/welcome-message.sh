@@ -37,8 +37,7 @@ day=$(date +%A)
 [ $day == "Saturday" ] && title="Batman"
 [ $day == "Sunday" ] && title="Nobody"
 
-#Assigned a title to each day of the week
-
+#First tested what day it is and then assigned a title to each day of the week
 
 ###############
 # Main        #
