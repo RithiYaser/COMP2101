@@ -9,12 +9,10 @@
 
 
 #Asking the user to end 3 numbers.
-echo "Enter any 3 numbers"
+read -p "Enter any 3 numbers" firstnum secondnum thirdnum
 
 #Assigning the number to three variable called firstnum,secondnum and thirdnum.
-read firstnum
-read secondnum
-read thirdnum
+
 
 #Adding the 3 numbers and putting the result into a variable called sum.
 sum=$((firstnum + secondnum + thirdnum))
