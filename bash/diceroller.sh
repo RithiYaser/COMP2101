@@ -15,3 +15,4 @@ echo "
 Rolling...
 $(( RANDOM % 6 + 1)), $(( RANDOM % 6 + 1)), $(( RANDOM % 6 + 1)), $(( RANDOM % 6 + 1)), $(( RANDOM % 6 + 1)), $(( RANDOM % 6 + 1)) rolled
 "
+#Rolls the dice 6 times as there are 6 letters in RITHIN.
